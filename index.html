@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LearnMaster | Watch & Win</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">🎥 StreamHive</div>
+    <div class="nav-profile" onclick="toggleProfile()">
+      <span>👤 Uma Maheswari</span>
+      <span class="points"> | Points: <span id="userPoints">0</span></span>
+      <div class="user-info" id="userProfile">
+        <p><strong>Name:</strong> Uma Maheswari</p>
+        <p><strong>Points:</strong> <span id="userPointsDropdown">0</span></p>
+      </div>
+    </div>
+  </header>
+
+  <section class="main-heading">
+    <h1>📚 Welcome to StreamHive</h1>
+    <p>Streaming knowledge, one clip at a time.</p>
+  </section>
+
+
+  <main>
+    <div class="video-card">
+      <h3>Sample Nature Video</h3>
+      <video id="Video-1" width="640" height="360" controls onended="addPoints('Video-1')">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h3>Urban Life</h3>
+      <video id="Video-2" width="640" height="360" controls onended="addPoints('Video-2')">
+        <source src="https://samplelib.com/lib/preview/mp4/sample-10s.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h3>Beach Waves</h3>
+      <video id="Video-3" width="640" height="360" controls onended="addPoints('Video-3')">
+        <source src="https://filesamples.com/samples/video/mp4/sample_640x360.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h3>Big Buck Bunny - Funny Animated Sample</h3>
+      <video id="Video-4" width="640" height="360" controls onended="addPoints('Video-4')">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="video-card">
+      <h3>Bear walking in Nature </h3>
+      <video id="Video-5" width="640" height="360" controls onended="addPoints('Video-5')">
+        <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+      </video>
+    </div>
+  </main>
+<footer id="quoteFooter">
+  “Learning never exhausts the mind.” — <em>Leonardo da Vinci</em>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
