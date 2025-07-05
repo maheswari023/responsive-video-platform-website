@@ -1,7 +1,7 @@
 **responsive-video-platform-website**
 A responsive video-based learning platform built using HTML, CSS, and JavaScript. Hosted on Netlify.
 
-# StreamHive – Internship Task 1
+# StreamHive 
 
 This is my submission for Internship Task 1 assigned by Nullclass.  
 It is a responsive video-based platform designed to spark curiosity and provide an engaging user experience. The site is mobile-friendly and works seamlessly across all devices including tablets.
